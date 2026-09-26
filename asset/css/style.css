@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'poppins', sans-serif;
+   scroll-behavior: smooth;
+}
+
+
+.tron {
+    text-align: center;
+    color: rgb(247, 246, 246);
+    background-color: rgb(255, 35, 35);
+    padding: 60px ;
+    font-size: 20PX;
+    
+}
+
+.tron h1 {
+    padding: 20px;
+}
+
+.tron p {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(223, 25, 25);
+    padding: 20px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+nav a {
+    color: rgb(243, 243, 243);
+    
+}
+
+nav a:hover {
+    color: black;
+}
+
+main {
+    padding: 25px;
+    overflow: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    color: rgb(210, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.gambar {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+p {
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(255, 35, 35) ;
+    padding: 20px;
+    font-weight: 450;
+    text-align: center;
+}
+
+footer p {
+ text-align: center;
+}
+
+.profil header {
+    text-align: center;
+}
+
+.profile img {
+    width: 250px;
+}
+
+aside {
+    text-align: center;
+    flex: 1;
+}
+
+aside p{
+    text-align: center;
+}
+
+#content {
+    flex: 3;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
